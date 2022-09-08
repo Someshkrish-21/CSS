@@ -1,0 +1,32 @@
+.card1{
+background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/chatbg.png");
+width: 50%;
+margin: 400px;
+}
+
+h1{
+
+    color: white;
+    text-align: center;
+    padding: 25px;
+    background-color:#323f4b;
+}
+.card2{
+    text-align: right;
+    background-color: #47a3f3;
+    padding: 20px;
+    border-radius: 20px;
+    border-radius:  10px 10px 0px 10px;
+    margin: 10px;
+}
+.card3{
+    background-color:#52606d;
+    padding:20px;
+    border-radius: 20px;
+    border-radius:  10px 10px 10px 0px;
+    margin: 10px;
+
+
+}
+
+

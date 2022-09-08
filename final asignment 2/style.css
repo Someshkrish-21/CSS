@@ -1,0 +1,103 @@
+*{
+ margin: 0px;}
+
+.container1{background-color: #222623;
+            height: 400px;
+            width: 1500px;
+           }
+
+.tab1{text-align: center;
+      color: #f5bd05;}
+     
+.box1{display: inline-block;
+    position: absolute;
+    top: 100px;
+    right: 550px;
+    bottom: 50px;
+    left: 100px;
+    color: white;} 
+
+
+.box2{display: inline-block;
+     position: absolute;
+    top: 100px;
+    right: 250px;
+    bottom: 50px;
+    left: 800px;
+    color: white;}  
+
+.container2{background-color: #1c1c19;
+         height: 400px;
+         width: 1500px;}    
+
+.tab11{text-align: center;
+       color: #f5bd05;}   
+       
+.tab22{display: flex;
+       color: white;
+    position: absolute;
+    top: 500px;}
+
+
+.b1{ text-align: center;
+    
+    height: 40px;
+    width: 100px;
+     background-color: #f5bd05;
+    }
+
+.pad1{
+     padding: 60px;    
+     } 
+     
+.pad2{
+     padding: 60px;    
+        } 
+        
+.pad3{
+      padding: 60px;    
+            }            
+
+.clr{color: #f5bd05;
+padding-left: 100px;
+padding-bottom: 50px ;} 
+
+.new3{
+    background-image:url("https://images.unsplash.com/20/bw-room.JPG?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmxhY2slMjBhbmQlMjB3aGl0ZSUyMG9mZmljZXxlbnwwfHwwfHw%3D&w=1000&q=80");
+    background-position: 100px;
+    background-size: cover;
+    height: 300px;
+    width: 1500px;
+    text-align: center;
+    padding-top: 70px;
+    font-weight:bolder;
+      
+
+}
+.sch{width: 900px;
+    padding-left: 300px;
+    padding-top: 60px;
+     height: 60px;}
+
+.bar{width: 380px;
+     height: 50px;
+    background-color: grey;}  
+    
+    
+
+.first{background-color: #1c1c19;
+    height: 300px;
+    width: 1500px;
+    display: flex;
+ 
+     
+} 
+
+.last{
+     color: white;
+    padding-top: 100px;
+    padding-right:400px;
+    color: #f5bd05;}
+   
+
+     

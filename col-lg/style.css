@@ -1,0 +1,73 @@
+.grid-cointainer {
+    display: grid;
+    background-color: white;
+    padding: 20px;
+    color: white;
+    grid-template-areas:
+    'header menu menu menu menu'
+    'hero hero hero hero hero hero hero'
+    'main main main image image'
+    'banner banner banner banner banner'
+}
+
+.grid-cointainer > div{
+    text-align: center;
+}
+
+.child1{ background-color: black;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    height: 10vh;
+
+   
+
+
+}
+.child2{ background-color: rgb(216, 29, 29);
+    grid-column-start: 3; 
+    grid-column-end: 12;
+    height: 10vh;
+
+   
+}
+.child3{ background-color: rgb(42, 154, 210);
+    grid-column-start: 1;
+    grid-column-end: 12;
+    height: 50vh;
+
+  
+
+
+}
+.child4{ background-color: rgb(35, 44, 74);
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    height: 30vh;
+
+
+
+
+}
+.child5{ background-color: rgb(105, 245, 203);
+    grid-column-start: 9;
+    grid-column-end: 12;
+    height: 15vh;
+
+}
+.child6{ background-color: rgb(11, 234, 81);
+    grid-column-start: 9;
+    grid-column-end: 12;
+    height: 15vh;
+
+
+}
+.child7{ background-color: rgb(246, 214, 7);
+    grid-column-start: 1;
+    grid-column-end: 12;
+    height: 10vh;
+
+}
+@media only screen and ()
+

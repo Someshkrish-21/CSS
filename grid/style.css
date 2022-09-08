@@ -1,0 +1,48 @@
+.one { grid-area: ;}
+.two {grid-area: ;
+grid-column: 1/2;}
+.three {grid-area: ;}
+.four {grid-area: ;}
+.five {grid-area: ;}
+.six {grid-area: ;}
+.seven {grid-area: ;}
+.eight {grid-area: ;}
+.nine {grid-area: ;}
+
+
+.grid-container{}
+
+
+
+
+
+
+
+
+.one{background-color:blue;
+}
+
+.two{background-color: aqua;
+}
+
+.three{background-color: orange;
+}
+
+.four{background-color: yellow;
+}
+
+.five{background-color: red;
+}
+
+.six{background-color: violet;
+
+}
+
+.seven{background-color: purple;
+}
+
+.eight{background-color: gray;
+}
+
+.nine{background-color: brown;
+}

@@ -1,0 +1,28 @@
+
+.card1{
+    background-image: url(" https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/codingbg.png");
+    
+       width: 400px;
+       height: 700px;
+       margin: auto;
+       background-size: cover;
+       border: 1px solid;
+      }
+      
+      .card2{
+        height: 300px;
+        width: 300px;
+        background:#00000080;
+        border: solid 10px;
+        border-color: #48ee59;
+        margin: 200px auto auto 40px;
+        
+      }
+      p
+      {
+        color: white;
+        font-size: 50px;
+        
+
+
+      }

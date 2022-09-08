@@ -1,0 +1,65 @@
+*{font-family: Arial, Helvetica, sans-serif;}
+
+.card1{ display: flex;
+}
+
+.card1 ul li{list-style-type:none;
+    display: inline-block;
+    padding: 10px;
+    color: blue ;
+}
+.card1 img{
+    height: 40px;
+    width: 100px;
+    padding-top: 1%;
+    padding-left: 3%;
+    
+}
+
+.first{margin-left: 15vw;}
+
+.card2{height: 70px;
+    width: 100%;
+    background-color: rgb(6, 6, 46);
+    display: flex;
+
+   }
+
+   .card2 ul li{margin-top: 10px;
+    margin-left: 100px;}
+
+.drp{height: 70px;
+    width: 500px;
+    font-size:25px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(8, 8, 92);
+    color: white;
+   }
+
+
+    
+    
+
+.card2 li{ display: inline-block;
+    color: hsl(0, 0%, 100%);
+    padding-left: 80px;
+   
+}
+  
+a{
+    text-decoration: none;
+}
+ 
+
+.card2 li a{
+    color: aliceblue;
+}
+
+a:hover{
+    color:rgb(12, 12, 189) ;
+}
+
+.card2 a:hover{
+    color: rgb(45, 27, 243);
+}

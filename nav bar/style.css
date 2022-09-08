@@ -1,0 +1,10 @@
+nav a{
+  padding-inline: 20px;
+  display: inline-block;
+  float: right;
+ 
+}
+.card1 img{
+    width: 80px;
+    height: 40px;
+}
