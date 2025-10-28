@@ -22,7 +22,7 @@
     "weight": {
       "400": {
         "value": "Regular",
-        "type": "string"
+        "type": ""
       },
       "500": {
         "value": "Medium",
