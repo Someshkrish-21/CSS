@@ -25,7 +25,38 @@ jobs:
           GITLAB_USERNAME: ${{ secrets.GITLAB_USERNAME }}
           GITLAB_TOKEN: ${{ secrets.GITLAB_TOKEN }}
           GITLAB_REPO: ${{ secrets.GITLAB_REPO }}
+        run: |name: Sync tokens.theme.json to GitLab
+
+on:
+  push:
+    paths:
+      - tokens.theme.json
+    branches:
+      - main
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout GitHub repo
+        uses: actions/checkout@v3
+
+      - name: Clone GitLab repo (artemis-16.1.0 branch)
+        run: git clone --branch artemis-16.1.0 http://${{ secrets.GITLAB_USERNAME }}:${{ secrets.GITLAB_TOKEN }}@${{ secrets.GITLAB_REPO#http:// }} gitlab-repo
+
+      - name: Copy tokens.theme.json to GitLab repo
+        run: cp tokens.theme.json gitlab-repo/
+
+      - name: Commit and push to GitLab
         run: |
+          cd gitlab-repo
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add tokens.theme.json
+          git commit -m "Sync tokens.theme.json from GitHub"
+          git push origin artemis-16.1.0
+
           git clone http://${GITLAB_USERNAME}:${GITLAB_TOKEN}@${GITLAB_REPO#http://} gitlab-repo
           cp tokens.theme.json gitlab-repo/
           cd gitlab-repo
