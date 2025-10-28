@@ -12,37 +12,37 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: ✅ Checkout GitHub repo
+      - name: Checkout GitHub repo
         uses: actions/checkout@v3
 
-      - name: 🔄 Clone GitLab repo (ARTEMIS branch)
+      - name: Clone GitLab repo (ARTEMIS branch)
         run: |
           echo "Cloning GitLab repo..."
           git clone --branch ARTEMIS http://${{ secrets.GITLAB_USERNAME }}:${{ secrets.GITLAB_TOKEN }}@svgitlab.sysveda.co.in/AUSIEX/ARTEMIS.git gitlab-repo || {
-            echo "❌ Failed to clone GitLab repo"
+            echo "Failed to clone GitLab repo"
             exit 1
           }
 
-      - name: 📁 Copy tokens.theme.json to GitLab repo
+      - name: Copy tokens.theme.json to GitLab repo
         run: |
           echo "Copying tokens.theme.json..."
           if [ -f tokens.theme.json ]; then
             cp tokens.theme.json gitlab-repo/
-            echo "✅ File copied"
+            echo "File copied"
           else
-            echo "❌ tokens.theme.json not found in GitHub repo root"
+            echo "tokens.theme.json not found in GitHub repo root"
             exit 1
           fi
 
-      - name: 🚀 Commit and push to GitLab
+      - name: Commit and push to GitLab
         run: |
           echo "Preparing to commit and push..."
           cd gitlab-repo
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          git add tokens.theme.json || echo "⚠️ File not staged"
-          git commit -m "Sync tokens.theme.json from GitHub" || echo "⚠️ Nothing to commit"
+          git add tokens.theme.json || echo "File not staged"
+          git commit -m "Sync tokens.theme.json from GitHub" || echo "Nothing to commit"
           git push origin ARTEMIS || {
-            echo "❌ Push failed"
+            echo "Push failed"
             exit 1
           }
