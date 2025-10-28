@@ -1,0 +1,41 @@
+{
+  "_comment": "This file was generated automatically by Supernova.io and should not be changed manually. To modify the format or content of this file, please contact your design system team.",
+  "string": {
+    "family": {
+      "body": {
+        "value": "Roboto",
+        "type": "string"
+      },
+      "headline": {
+        "value": "Roboto",
+        "type": "string"
+      },
+      "display": {
+        "value": "Roboto Serif",
+        "type": "string"
+      },
+      "highlight": {
+        "value": "Roboto",
+        "type": "string"
+      }
+    },
+    "weight": {
+      "400": {
+        "value": "Regular",
+        "type": "string"
+      },
+      "500": {
+        "value": "Medium",
+        "type": "string"
+      },
+      "600": {
+        "value": "SemiBold",
+        "type": "string"
+      },
+      "700": {
+        "value": "Bold",
+        "type": "string"
+      }
+    }
+  }
+}
