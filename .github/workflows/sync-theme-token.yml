@@ -18,7 +18,7 @@ jobs:
       - name: Clone GitLab repo (ARTEMIS branch)
         run: |
           echo "Cloning GitLab repo..."
-          git clone --branch ARTEMIS http://${{ secrets.GITLAB_USERNAME }}:${{ secrets.GITLAB_TOKEN }}@svgitlab.sysveda.co.in/AUSIEX/ARTEMIS.git gitlab-repo || {
+          git clone --branch ARTEMIS https://${{ secrets.GITLAB_USERNAME }}:${{ secrets.GITLAB_TOKEN }}@svgitlab.sysveda.co.in/AUSIEX/ARTEMIS.git gitlab-repo || {
             echo "Failed to clone GitLab repo"
             exit 1
           }
