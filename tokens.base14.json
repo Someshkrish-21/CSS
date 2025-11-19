@@ -1,0 +1,265 @@
+{
+  "_comment": "This file was generated automatically by Supernova.io and should not be changed manually. To modify the format or content of this file, please contact your design system team.",
+  "space": {
+    "space": {
+      "1000": {
+        "value": "14px",
+        "type": "space"
+      },
+      "1250": {
+        "value": "17.5px",
+        "type": "space"
+      },
+      "1500": {
+        "value": "21px",
+        "type": "space"
+      },
+      "2000": {
+        "value": "28px",
+        "type": "space"
+      },
+      "2500": {
+        "value": "35px",
+        "type": "space"
+      },
+      "3000": {
+        "value": "42px",
+        "type": "space"
+      },
+      "3500": {
+        "value": "49px",
+        "type": "space"
+      },
+      "4000": {
+        "value": "56px",
+        "type": "space"
+      },
+      "5000": {
+        "value": "70px",
+        "type": "space"
+      },
+      "6000": {
+        "value": "84px",
+        "type": "space"
+      },
+      "0000": {
+        "value": "0px",
+        "type": "space"
+      },
+      "0062": {
+        "value": "0.88px",
+        "type": "space"
+      },
+      "0125": {
+        "value": "1.75px",
+        "type": "space"
+      },
+      "0187": {
+        "value": "2.63px",
+        "type": "space"
+      },
+      "0250": {
+        "value": "3.5px",
+        "type": "space"
+      },
+      "0312": {
+        "value": "4.38px",
+        "type": "space"
+      },
+      "0375": {
+        "value": "5.25px",
+        "type": "space"
+      },
+      "0458": {
+        "value": "6.13px",
+        "type": "space"
+      },
+      "0500": {
+        "value": "7px",
+        "type": "space"
+      },
+      "0625": {
+        "value": "8.75px",
+        "type": "space"
+      },
+      "0687": {
+        "value": "9.63px",
+        "type": "space"
+      },
+      "0750": {
+        "value": "10.5px",
+        "type": "space"
+      },
+      "0875": {
+        "value": "12.25px",
+        "type": "space"
+      }
+    }
+  },
+  "size": {
+    "size": {
+      "1000": {
+        "value": "14px",
+        "type": "size"
+      },
+      "1250": {
+        "value": "17.5px",
+        "type": "size"
+      },
+      "1500": {
+        "value": "21px",
+        "type": "size"
+      },
+      "1750": {
+        "value": "24.5px",
+        "type": "size"
+      },
+      "2000": {
+        "value": "28px",
+        "type": "size"
+      },
+      "2250": {
+        "value": "31.5px",
+        "type": "size"
+      },
+      "2500": {
+        "value": "35px",
+        "type": "size"
+      },
+      "3000": {
+        "value": "42px",
+        "type": "size"
+      },
+      "3500": {
+        "value": "49px",
+        "type": "size"
+      },
+      "4000": {
+        "value": "56px",
+        "type": "size"
+      },
+      "5000": {
+        "value": "70px",
+        "type": "size"
+      },
+      "6000": {
+        "value": "84px",
+        "type": "size"
+      },
+      "0000": {
+        "value": "0px",
+        "type": "size"
+      },
+      "0062": {
+        "value": "0.88px",
+        "type": "size"
+      },
+      "0125": {
+        "value": "1.75px",
+        "type": "size"
+      },
+      "0187": {
+        "value": "2.63px",
+        "type": "size"
+      },
+      "0250": {
+        "value": "3.5px",
+        "type": "size"
+      },
+      "0375": {
+        "value": "5.25px",
+        "type": "size"
+      },
+      "0458": {
+        "value": "6.13px",
+        "type": "size"
+      },
+      "0500": {
+        "value": "7px",
+        "type": "size"
+      },
+      "0625": {
+        "value": "8.75px",
+        "type": "size"
+      },
+      "0687": {
+        "value": "9.63px",
+        "type": "size"
+      },
+      "0750": {
+        "value": "10.5px",
+        "type": "size"
+      },
+      "0875": {
+        "value": "12.25px",
+        "type": "size"
+      }
+    }
+  },
+  "font-size": {
+    "font": {
+      "size": {
+        "d1": {
+          "value": "84px",
+          "type": "fontSize"
+        },
+        "d2": {
+          "value": "70px",
+          "type": "fontSize"
+        },
+        "d3": {
+          "value": "56px",
+          "type": "fontSize"
+        },
+        "h1": {
+          "value": "42px",
+          "type": "fontSize"
+        },
+        "h2": {
+          "value": "35px",
+          "type": "fontSize"
+        },
+        "h3": {
+          "value": "28px",
+          "type": "fontSize"
+        },
+        "h4": {
+          "value": "21px",
+          "type": "fontSize"
+        },
+        "h5": {
+          "value": "14px",
+          "type": "fontSize"
+        },
+        "h6": {
+          "value": "12.25px",
+          "type": "fontSize"
+        },
+        "lg": {
+          "value": "17.5px",
+          "type": "fontSize"
+        },
+        "md": {
+          "value": "14px",
+          "type": "fontSize"
+        },
+        "sm": {
+          "value": "12.25px",
+          "type": "fontSize"
+        },
+        "1xs": {
+          "value": "10.5px",
+          "type": "fontSize"
+        },
+        "2xs": {
+          "value": "8.75px",
+          "type": "fontSize"
+        },
+        "3xs": {
+          "value": "7px",
+          "type": "fontSize"
+        }
+      }
+    }
+  }
+}
